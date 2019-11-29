@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="안내중입니다"
+        android:textSize="40dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/gyung"/>
+
+    <ImageView
+            android:id="@+id/img"
+            android:layout_marginTop="50dp"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:src="@drawable/location"/>
+
+
+
+    <TextView
+        android:id="@+id/msg"
+        android:layout_marginTop="50dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="앞으로 이동하세요."
+        android:textSize="35dp"
+        android:onClick="onclick"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/gyung">
+    </TextView>
+
+
+
+
+
+
+</LinearLayout>

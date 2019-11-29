@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:onClick="view_click"
+    android:background="@color/navy">
+
+    <ImageView
+        android:id="@+id/imf"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:layout_marginBottom="40dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="5dp"
+        android:src="@drawable/speaking" />
+    <Button
+        android:id="@+id/info"
+        android:layout_width="270dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="@color/snow"
+        android:layout_marginBottom="40dp"
+        android:text="안내 버튼"
+        android:textSize="30dp"
+        android:fontFamily="@font/gyung"
+        />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:textStyle="bold"
+    android:textColor="@color/snow"
+    android:text="아무 곳이나"
+    android:textAlignment="center"
+    android:layout_gravity="center"
+    android:textSize="43dp"
+    android:fontFamily="@font/gyung"
+    android:onClick="text_click"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textStyle="bold"
+        android:textColor="@color/snow"
+        android:text="클릭하세요"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="43dp"
+        android:fontFamily="@font/gyung"
+        android:onClick="text_click"
+        />
+</LinearLayout>

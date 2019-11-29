@@ -1,0 +1,2 @@
+include ':app', ':ble', ':wear', ':nRFToolbox', ':common'
+rootProject.name='My_sensor'

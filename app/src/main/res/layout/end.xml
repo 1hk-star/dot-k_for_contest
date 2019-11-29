@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="@color/snow">
+
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_marginTop="130dp"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/end"/>
+
+    <TextView
+        android:id="@+id/msg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:text="목적지에 도착하였습니다."
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:fontFamily="@font/gyung">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_launcher_foreground"
+        android:background="@color/navy"
+        android:fontFamily="@font/gyung"
+        android:gravity="left|center_vertical"
+        android:onClick="click_home"
+        android:text="처음으로 돌아가기"
+        android:textColor="@color/snow"
+        android:textSize="27sp"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:paddingRight="10dp"/>
+</LinearLayout>
